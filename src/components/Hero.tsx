@@ -1,4 +1,5 @@
 import { FaAngleLeft } from "react-icons/fa6";
+import { FaCheckSquare } from "react-icons/fa";
 
 const Hero: React.FC = () => {
   return (
@@ -14,35 +15,20 @@ const Hero: React.FC = () => {
 
         <ul className="text-accent flex gap-2 flex-col ">
           <li className="flex gap-2">
-            <input
-              type="checkbox"
-              defaultChecked
-              className="checkbox checkbox-secondary rounded-md"
-            />
+            <FaCheckSquare className="text-secondary w-6 h-6" />
+
             <p>لورم اپسیوم متن ساختگی با تولید ساختگی نامفهوم </p>
           </li>
           <li className="flex gap-2">
-            <input
-              type="checkbox"
-              defaultChecked
-              className="checkbox checkbox-secondary rounded-md"
-            />
+            <FaCheckSquare className="text-secondary w-6 h-6" />
             <p>لورم اپسیوم متن ساختگی با تولید ساختگی نامفهوم</p>
           </li>
           <li className="flex gap-2">
-            <input
-              type="checkbox"
-              defaultChecked
-              className="checkbox checkbox-secondary rounded-md"
-            />
+            <FaCheckSquare className="text-secondary w-6 h-6" />
             <p>لورم اپسیوم متن ساختگی با تولید ساختگی نامفهوم </p>
           </li>
           <li className="flex gap-2">
-            <input
-              type="checkbox"
-              defaultChecked
-              className="checkbox checkbox-secondary rounded-md"
-            />
+            <FaCheckSquare className="text-secondary w-6 h-6" />
             <p>لورم اپسیوم متن ساختگی با تولید ساختگی نامفهوم </p>
           </li>
         </ul>
@@ -53,8 +39,7 @@ const Hero: React.FC = () => {
             <FaAngleLeft />
           </button>
           <button className="btn btn-active btn-primary rounded-xl">
-            درباره ما
-            <FaAngleLeft className="text-secondary" />
+            محصولات ما <FaAngleLeft className="text-secondary" />
           </button>
         </div>
       </div>
