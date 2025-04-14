@@ -2,7 +2,7 @@ import { FaAngleLeft } from "react-icons/fa6";
 
 const Hero: React.FC = () => {
   return (
-    <section className="bg-primary w-screen h-190 flex items-center justify-center ">
+    <section className="bg-primary w-screen h-190 flex items-center justify-center gap-30 ">
       {/* content */}
       <div className=" flex flex-col gap-8">
         <div className="flex  items-center gap-2 ">
@@ -60,7 +60,28 @@ const Hero: React.FC = () => {
       </div>
 
       {/* picture */}
-      <div></div>
+      <div className="relative top-10">
+        <div className="absolute top-20 w-150">
+          <img src="./image.png" alt="image" className="w-180" />
+          <img
+            src="./logo.svg"
+            alt="logo"
+            className=" w-14 absolute z-10 top-0 left-2"
+          />
+        </div>
+        <div>
+          <img
+            src="./bgPicture.png"
+            alt=""
+            className="-z-10 w-100 h-130 mr-70"
+          />
+          <img
+            src="./pictureSideLogo.svg"
+            alt="logo"
+            className="z-0 top-1/2 left-8 absolute h-28"
+          />
+        </div>
+      </div>
     </section>
   );
 };
