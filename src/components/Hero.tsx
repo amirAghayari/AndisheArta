@@ -1,5 +1,6 @@
 import { FaAngleLeft } from "react-icons/fa6";
 import { FaCheckSquare } from "react-icons/fa";
+import Swiper from "./Swiper";
 
 const Hero: React.FC = () => {
   return (
@@ -45,9 +46,9 @@ const Hero: React.FC = () => {
       </div>
 
       {/* picture */}
-      <div className="relative top-10">
+      {/* <div className="relative top-10">
         <div className="absolute top-20 w-150">
-          <img src="./image.png" alt="image" className="w-180" />
+          <img src="./image.png" alt="image" className="w-200" />
           <img
             src="./logo.svg"
             alt="logo"
@@ -66,7 +67,8 @@ const Hero: React.FC = () => {
             className="z-0 top-1/2 left-8 absolute h-28"
           />
         </div>
-      </div>
+      </div> */}
+      <Swiper />
     </section>
   );
 };
